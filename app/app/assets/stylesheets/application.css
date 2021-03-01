@@ -10,6 +10,11 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ * primary brown a64812
+ * light tan e9e1d4
+ * dark tan d5b46f
+ * greyish black #212529
+
  *= require_tree .
  *= require_self
  */
@@ -88,7 +93,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #e9e1d4;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -6155,7 +6160,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #d5b46f !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9865,7 +9870,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #212529 !important;
 }
 
 .text-black-50 {
@@ -10212,7 +10217,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: #e9e1d4;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -10448,7 +10453,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+ /*  background-image: url("../assets/img/map-image.png"); */
   background-repeat: no-repeat;
   background-position: center;
 }
